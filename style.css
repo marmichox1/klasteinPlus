@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+.navbar {
+    background-color: #102a75;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logout-button {
+    color: white;
+    text-decoration: none;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #102a75;
+    border-radius: 5px;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f0f0f0;
+    position: fixed;
+    top: 60px;
+    bottom: 0;
+    padding: 15px;
+}
+
+.content {
+    margin-left: 220px;
+    padding: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.error {
+    color: red;
+}
